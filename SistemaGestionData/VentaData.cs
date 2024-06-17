@@ -10,7 +10,7 @@ namespace SistemaGestionData
 {
     public class VentaData
     {
-            {
+            
         static string connectionString = @"Server=localhost\SQLEXPRESS;Database=SistemaGestion;Trusted_Connection=True;";
         public static Venta ObtenerVenta(int id)
         {
@@ -124,5 +124,4 @@ namespace SistemaGestionData
             }
         }
     }
-}
 }
